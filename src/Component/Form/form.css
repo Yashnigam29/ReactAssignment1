@@ -1,0 +1,122 @@
+body {
+  background: linear-gradient(74deg, rgba(213, 208, 208, 0.365) 57%, rgba(106, 106, 125, 0.26) 100%);;
+  padding: 23px;
+}
+
+.container {
+  display: flex;
+  max-width: 900px;
+  border-radius: 15px;
+  background: #fff;
+}
+.col-7{
+  padding: 10px;
+}
+.line{
+  display: flex;
+  padding: 8px;
+  color: red;
+}
+
+.sub-title{
+  font-size: 22px;
+  text-indent: 15px;
+  
+}
+.signup {
+  color: darkblue;
+  padding: 10px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+input {
+  padding: 10px;
+}
+
+.col-md-6, .col-md-12 {
+  display: inline-block;
+  padding: 5px;
+}
+
+.subButton{
+  border-radius: 12px;
+  width: 40px;
+  box-shadow: 0px 8px 15px rgba(183, 41, 41, 0.315);
+  height: 40px;
+}
+.bi-arrow-right{
+  color: white;
+display: flex;
+}
+
+
+#customBtn {
+  background: white;
+  color: #444;
+  border-radius: 8px;
+  border: thin solid rgb(223, 222, 222);
+  padding: 2px;
+  
+}
+#customBtn:hover {
+  cursor: pointer;
+}
+
+span.icon {
+  display: inline-block;
+  height: 32px;
+}
+
+span.icon >img{
+  width: 100%;
+  height: 100%;
+}
+span.buttonText {
+  padding-left: 16px;
+  font-size: 14px;
+}
+
+.submitted {
+  color: green;
+}
+
+p {
+  color: red;
+  font-size: 12px;
+}
+
+.signupwith {
+  color: red;
+  padding: 16px;
+}
+
+.rocketimage {
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  /* border-radius: 15px; */
+  position: absolute;
+}
+
+.nav-link {
+  color: red;
+  display: inline-block;
+}
+
+@media screen and (max-width:420px){
+  .col-7{
+    max-width: 100%;
+  }
+  .container{
+    display: block;
+    background-image: url('../../assets/rocket1.jpg');
+    background-position: center;
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+  }
+}

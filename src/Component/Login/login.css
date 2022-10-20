@@ -1,0 +1,58 @@
+body {
+    background: linear-gradient(74deg, rgba(213, 208, 208, 0.365) 57%, rgba(106, 106, 125, 0.26) 100%);;
+    padding: 23px;
+  }
+  
+  .containers {
+    display: flex;
+    margin: auto;
+    max-width: 600px;
+    border-radius: 15px;
+    background: #fff;
+  }
+  .login {
+    color: darkblue;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .label {
+    display: inline-block;
+    font-weight: bold;
+    width: 100px;
+    padding: 5px;
+  }
+  
+  input {
+    padding: 10px;
+  }
+  
+  .subButton{
+    border-radius: 12px;
+    width: 40px;
+    height: 40px;
+  }
+  .bi-arrow-right{
+    color: white;
+  display: flex;
+  }
+  
+  .submitted {
+    color: green;
+  }
+
+  .titleDisplay{
+    color: Red;
+    text-align: center;
+    font-weight: bold;
+  }
+  p {
+    color: red;
+    font-size: 12px;
+  }
+
+  
+  .nav-link {
+    color: red;
+    display: inline-block;
+  }
